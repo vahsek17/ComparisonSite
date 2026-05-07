@@ -66,10 +66,6 @@ jobs:
             -H "Content-Type: application/json" \
             -d "$REQUEST")
 
-
-          echo "===== RAW GROQ RESPONSE ====="
-          echo "$RESPONSE_1"
-          
           echo "===== FORMATTED GROQ RESPONSE ====="
           echo "$RESPONSE_1" | jq .
 
