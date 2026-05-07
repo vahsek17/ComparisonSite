@@ -61,10 +61,27 @@ jobs:
             ]
           }')
 
-          RESPONSE_1=$(curl -s -X POST "https://api.groq.com/openai/v1/chat/completions" \
-            -H "Authorization: Bearer ${{ secrets.GROQ_API_KEY }}" \
-            -H "Content-Type: application/json" \
-            -d "$REQUEST")
+          RESPONSE_1=$(curl -s -X POST \ 
+          "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${{ secrets.GEMINI_API_KEY }}" \
+          -H "Content-Type: application/json" \
+          -d "$(jq -n \
+          --arg data "$DATA" \
+          '{
+          contents: [
+            {
+            parts: [
+              {
+              text: (
+                "STRICT_MODE=TRUE; Analyse the data for this mobile very carefully. DATA: "
+                + $data +
+                " Return ONLY valid JSON."
+                )
+              }
+            ]
+          }
+          ]
+          }'
+          )")
 
           echo "===== FORMATTED GROQ RESPONSE ====="
           echo "$RESPONSE_1" | jq .
