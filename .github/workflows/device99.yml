@@ -61,27 +61,10 @@ jobs:
             ]
           }')
 
-          RESPONSE_1=$(curl -s -X POST \ 
-          "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${{ secrets.GEMINI_API_KEY }}" \
-          -H "Content-Type: application/json" \
-          -d "$(jq -n \
-          --arg data "$DATA" \
-          '{
-          contents: [
-            {
-            parts: [
-              {
-              text: (
-                "STRICT_MODE=TRUE; Analyse the data for this mobile very carefully. DATA: "
-                + $data +
-                " Return ONLY valid JSON."
-                )
-              }
-            ]
-          }
-          ]
-          }'
-          )")
+          RESPONSE_1=$(curl -s -X POST "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent" \
+            -H "Authorization: Bearer ${{ secrets.GEMINI_API_KEY }}" \
+            -H "Content-Type: application/json" \
+            -d "$REQUEST")
 
           echo "===== FORMATTED GROQ RESPONSE ====="
           echo "$RESPONSE_1" | jq .
