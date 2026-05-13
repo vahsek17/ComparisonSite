@@ -384,7 +384,325 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$constan
 ;
 ;
 ;
+// ─── Small UI-only helpers (no data logic) ───────────────────────────────────
+function SiteHeader({ menuOpen, onToggleMenu }) {
+    const NAV = [
+        "Compare",
+        "Top Phones",
+        "Rankings",
+        "News",
+        "About"
+    ];
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("header", {
+        className: "sticky top-0 z-50 bg-gray-950 border-b border-gray-800",
+        children: [
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "max-w-7xl mx-auto px-4 h-14 flex items-center gap-6",
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "flex items-center gap-2 flex-shrink-0",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                className: "text-xl",
+                                children: "📱"
+                            }, void 0, false, {
+                                fileName: "[project]/app/components/compareTable.tsx",
+                                lineNumber: 19,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                className: "text-white font-bold text-lg tracking-tight",
+                                children: [
+                                    "Spec",
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                        className: "text-blue-400",
+                                        children: "Arena"
+                                    }, void 0, false, {
+                                        fileName: "[project]/app/components/compareTable.tsx",
+                                        lineNumber: 21,
+                                        columnNumber: 17
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/app/components/compareTable.tsx",
+                                lineNumber: 20,
+                                columnNumber: 11
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/app/components/compareTable.tsx",
+                        lineNumber: 18,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
+                        className: "hidden md:flex items-center gap-1 flex-1",
+                        children: NAV.map((link)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                href: "#",
+                                className: "px-3 py-1.5 rounded-md text-sm font-medium text-gray-400 hover:text-white hover:bg-gray-800 transition-colors",
+                                children: link
+                            }, link, false, {
+                                fileName: "[project]/app/components/compareTable.tsx",
+                                lineNumber: 28,
+                                columnNumber: 13
+                            }, this))
+                    }, void 0, false, {
+                        fileName: "[project]/app/components/compareTable.tsx",
+                        lineNumber: 26,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "flex items-center gap-2 ml-auto",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                href: "#",
+                                className: "hidden md:flex items-center justify-center w-8 h-8 rounded-md border border-gray-700 text-gray-400 hover:text-white hover:border-gray-500 transition-colors text-sm",
+                                "aria-label": "Search",
+                                children: "🔍"
+                            }, void 0, false, {
+                                fileName: "[project]/app/components/compareTable.tsx",
+                                lineNumber: 39,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                className: "md:hidden flex items-center justify-center w-8 h-8 rounded-md border border-gray-700 text-gray-400 hover:text-white transition-colors",
+                                onClick: onToggleMenu,
+                                "aria-label": "Toggle menu",
+                                children: menuOpen ? "✕" : "☰"
+                            }, void 0, false, {
+                                fileName: "[project]/app/components/compareTable.tsx",
+                                lineNumber: 47,
+                                columnNumber: 11
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/app/components/compareTable.tsx",
+                        lineNumber: 38,
+                        columnNumber: 9
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "[project]/app/components/compareTable.tsx",
+                lineNumber: 16,
+                columnNumber: 7
+            }, this),
+            menuOpen && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "md:hidden bg-gray-950 border-t border-gray-800",
+                children: NAV.map((link)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                        href: "#",
+                        className: "block px-4 py-3 text-sm font-medium text-gray-300 hover:text-white hover:bg-gray-800 border-b border-gray-800 transition-colors",
+                        children: link
+                    }, link, false, {
+                        fileName: "[project]/app/components/compareTable.tsx",
+                        lineNumber: 61,
+                        columnNumber: 13
+                    }, this))
+            }, void 0, false, {
+                fileName: "[project]/app/components/compareTable.tsx",
+                lineNumber: 59,
+                columnNumber: 9
+            }, this)
+        ]
+    }, void 0, true, {
+        fileName: "[project]/app/components/compareTable.tsx",
+        lineNumber: 15,
+        columnNumber: 5
+    }, this);
+}
+function AdSlot({ label, minHeight, accent = "blue" }) {
+    const colors = {
+        blue: "bg-blue-950/40 border-blue-800/50 text-blue-400",
+        green: "bg-emerald-950/40 border-emerald-800/50 text-emerald-400",
+        amber: "bg-amber-950/40 border-amber-800/50 text-amber-400"
+    };
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+        className: `w-full flex flex-col items-center justify-center gap-1.5 rounded-xl border border-dashed ${colors[accent]}`,
+        style: {
+            minHeight
+        },
+        children: [
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                className: "text-xs font-bold tracking-widest uppercase opacity-60",
+                children: "Advertisement"
+            }, void 0, false, {
+                fileName: "[project]/app/components/compareTable.tsx",
+                lineNumber: 94,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                className: "text-xs opacity-40",
+                children: label
+            }, void 0, false, {
+                fileName: "[project]/app/components/compareTable.tsx",
+                lineNumber: 97,
+                columnNumber: 7
+            }, this)
+        ]
+    }, void 0, true, {
+        fileName: "[project]/app/components/compareTable.tsx",
+        lineNumber: 90,
+        columnNumber: 5
+    }, this);
+}
+function SiteFooter() {
+    const cols = [
+        [
+            "Compare",
+            [
+                "Compare Phones",
+                "Top 10 Phones",
+                "Best Camera Phones",
+                "Best Battery Phones"
+            ]
+        ],
+        [
+            "Company",
+            [
+                "About Us",
+                "Contact",
+                "Privacy Policy",
+                "Terms of Use"
+            ]
+        ],
+        [
+            "More",
+            [
+                "Advertise",
+                "API Access",
+                "Submit a Phone",
+                "Sitemap"
+            ]
+        ]
+    ];
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("footer", {
+        className: "bg-gray-950 border-t border-gray-800 mt-10",
+        children: [
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "max-w-7xl mx-auto px-4 py-10 flex flex-wrap gap-10",
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "flex-shrink-0 w-44",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                className: "text-white font-bold text-base mb-2",
+                                children: [
+                                    "Spec",
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                        className: "text-blue-400",
+                                        children: "Arena"
+                                    }, void 0, false, {
+                                        fileName: "[project]/app/components/compareTable.tsx",
+                                        lineNumber: 113,
+                                        columnNumber: 17
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/app/components/compareTable.tsx",
+                                lineNumber: 112,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                className: "text-xs text-gray-500 leading-relaxed",
+                                children: "Unbiased mobile specifications & comparisons."
+                            }, void 0, false, {
+                                fileName: "[project]/app/components/compareTable.tsx",
+                                lineNumber: 115,
+                                columnNumber: 11
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/app/components/compareTable.tsx",
+                        lineNumber: 111,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "flex flex-wrap gap-8 flex-1",
+                        children: cols.map(([heading, links])=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "flex flex-col gap-1.5 min-w-[110px]",
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                        className: "text-[10px] font-bold uppercase tracking-widest text-gray-500 mb-1",
+                                        children: heading
+                                    }, void 0, false, {
+                                        fileName: "[project]/app/components/compareTable.tsx",
+                                        lineNumber: 122,
+                                        columnNumber: 15
+                                    }, this),
+                                    links.map((l)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                            href: "#",
+                                            className: "text-xs text-gray-500 hover:text-gray-200 transition-colors leading-loose",
+                                            children: l
+                                        }, l, false, {
+                                            fileName: "[project]/app/components/compareTable.tsx",
+                                            lineNumber: 126,
+                                            columnNumber: 17
+                                        }, this))
+                                ]
+                            }, heading, true, {
+                                fileName: "[project]/app/components/compareTable.tsx",
+                                lineNumber: 121,
+                                columnNumber: 13
+                            }, this))
+                    }, void 0, false, {
+                        fileName: "[project]/app/components/compareTable.tsx",
+                        lineNumber: 119,
+                        columnNumber: 9
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "[project]/app/components/compareTable.tsx",
+                lineNumber: 110,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "border-t border-gray-800 px-4 py-3 max-w-7xl mx-auto flex flex-wrap justify-between items-center gap-2",
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                        className: "text-[11px] text-gray-600",
+                        children: [
+                            "© ",
+                            new Date().getFullYear(),
+                            " SpecArena — specs for informational purposes only."
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/app/components/compareTable.tsx",
+                        lineNumber: 139,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "flex gap-4",
+                        children: [
+                            "Privacy",
+                            "Terms",
+                            "Cookies"
+                        ].map((l)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                href: "#",
+                                className: "text-[11px] text-gray-600 hover:text-gray-400 transition-colors",
+                                children: l
+                            }, l, false, {
+                                fileName: "[project]/app/components/compareTable.tsx",
+                                lineNumber: 144,
+                                columnNumber: 13
+                            }, this))
+                    }, void 0, false, {
+                        fileName: "[project]/app/components/compareTable.tsx",
+                        lineNumber: 142,
+                        columnNumber: 9
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "[project]/app/components/compareTable.tsx",
+                lineNumber: 138,
+                columnNumber: 7
+            }, this)
+        ]
+    }, void 0, true, {
+        fileName: "[project]/app/components/compareTable.tsx",
+        lineNumber: 109,
+        columnNumber: 5
+    }, this);
+}
 function CompareTable() {
+    // ── All original state & data logic, untouched ───────────────────────────
     const items = (0, __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$useCatalogue$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useCatalogue"])();
     const [selected, setSelected] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])([
         null,
@@ -401,259 +719,520 @@ function CompareTable() {
             ...selected
         ];
         copy[index] = opt;
-        // Only count non-null UP TO current dropdownCount
         const activeSelections = [];
         for(let i = 0; i < dropdownCount; i++){
-            if (copy[i] !== null) {
-                activeSelections.push(copy[i]);
-            }
+            if (copy[i] !== null) activeSelections.push(copy[i]);
         }
         const newCount = Math.max(2, activeSelections.length);
-        // Create new selected array with exact size
         const newSelected = Array(4).fill(null);
-        for(let i = 0; i < newCount; i++){
-            newSelected[i] = activeSelections[i];
-        }
+        for(let i = 0; i < newCount; i++)newSelected[i] = activeSelections[i];
         setSelected(newSelected);
         setDropdownCount(newCount);
     };
     const addDropdown = ()=>{
-        if (dropdownCount < 4) {
-            setDropdownCount(dropdownCount + 1);
-        }
+        if (dropdownCount < 4) setDropdownCount(dropdownCount + 1);
     };
+    // ── New UI-only state ─────────────────────────────────────────────────────
+    const [menuOpen, setMenuOpen] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(false);
+    const [highlightDiff, setHighlightDiff] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(false);
+    // Derived: which spec keys have differing values across selected phones
+    const diffKeys = new Set();
+    if (highlightDiff) {
+        const activePhones = selected.slice(0, dropdownCount).filter(Boolean).map((s)=>items.find((item)=>item.model === s.value));
+        if (activePhones.length > 1) {
+            Object.keys(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$constants$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["attributeNames"]).forEach((key)=>{
+                const vals = activePhones.map((p)=>p?.[key] ?? "");
+                if (new Set(vals).size > 1) diffKeys.add(key);
+            });
+        }
+    }
+    const hasSelection = selected.some((s)=>s !== null);
     if (items.length === 0) return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        children: "Loading..."
+        className: "min-h-screen bg-gray-950 flex items-center justify-center text-gray-400 text-sm",
+        children: "Loading phones…"
     }, void 0, false, {
         fileName: "[project]/app/components/compareTable.tsx",
-        lineNumber: 53,
-        columnNumber: 34
+        lineNumber: 211,
+        columnNumber: 7
     }, this);
+    // ── react-select shared styles (dark theme) ───────────────────────────────
+    const selectWidth = dropdownCount === 2 ? "100%" : dropdownCount === 3 ? "240px" : "190px";
+    const rsStyles = {
+        control: (base)=>({
+                ...base,
+                backgroundColor: "#111827",
+                borderColor: "#374151",
+                color: "white",
+                width: selectWidth,
+                minHeight: "40px",
+                boxShadow: "none",
+                "&:hover": {
+                    borderColor: "#60a5fa"
+                }
+            }),
+        menu: (base)=>({
+                ...base,
+                backgroundColor: "#111827",
+                border: "1px solid #374151",
+                width: selectWidth
+            }),
+        singleValue: (base)=>({
+                ...base,
+                color: "white",
+                fontWeight: 600,
+                fontSize: "13px"
+            }),
+        placeholder: (base)=>({
+                ...base,
+                color: "#6b7280",
+                fontSize: "13px"
+            }),
+        valueContainer: (base)=>({
+                ...base,
+                padding: "2px 10px"
+            }),
+        input: (base)=>({
+                ...base,
+                color: "white"
+            }),
+        clearIndicator: (base)=>({
+                ...base,
+                color: "#6b7280",
+                "&:hover": {
+                    color: "#d1d5db"
+                }
+            }),
+        dropdownIndicator: (base)=>({
+                ...base,
+                color: "#6b7280"
+            }),
+        option: (base, state)=>({
+                ...base,
+                backgroundColor: state.isSelected ? "#1d4ed8" : state.isFocused ? "#1f2937" : "transparent",
+                color: "white",
+                fontSize: "13px"
+            })
+    };
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "min-h-screen py-8 px-2 sm:px-4 lg:px-8 bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900",
+        className: "min-h-screen bg-gray-950 text-gray-100",
         children: [
-            " ",
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(SiteHeader, {
+                menuOpen: menuOpen,
+                onToggleMenu: ()=>setMenuOpen(!menuOpen)
+            }, void 0, false, {
+                fileName: "[project]/app/components/compareTable.tsx",
+                lineNumber: 259,
+                columnNumber: 7
+            }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "max-w-7xl mx-auto",
+                className: "max-w-7xl mx-auto px-4 pt-5 pb-2",
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(AdSlot, {
+                    label: "Leaderboard · 728×90",
+                    minHeight: 80,
+                    accent: "blue"
+                }, void 0, false, {
+                    fileName: "[project]/app/components/compareTable.tsx",
+                    lineNumber: 263,
+                    columnNumber: 9
+                }, this)
+            }, void 0, false, {
+                fileName: "[project]/app/components/compareTable.tsx",
+                lineNumber: 262,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "max-w-7xl mx-auto px-4 pt-6 pb-4 text-center",
                 children: [
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "w-full h-64 lg:h-80 bg-gradient-to-r from-gray-800 to-gray-700 rounded-2xl mb-8 flex items-center justify-center text-gray-200 text-lg font-semibold shadow-2xl border border-gray-600",
-                        children: "Advertisement (300x250)"
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                        className: "text-[10px] font-bold tracking-widest uppercase text-blue-400 mb-2",
+                        children: "Mobile Comparison Tool"
                     }, void 0, false, {
                         fileName: "[project]/app/components/compareTable.tsx",
-                        lineNumber: 59,
+                        lineNumber: 268,
                         columnNumber: 9
                     }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "bg-gray-800/90 backdrop-blur-xl shadow-2xl rounded-3xl p-4 lg:p-6 border border-gray-600",
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
+                        className: "text-3xl sm:text-4xl font-bold tracking-tight text-white mb-2",
+                        children: "Compare Any Phone, Side by Side"
+                    }, void 0, false, {
+                        fileName: "[project]/app/components/compareTable.tsx",
+                        lineNumber: 271,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                        className: "text-sm text-gray-400",
                         children: [
-                            " ",
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "overflow-x-auto",
-                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("table", {
-                                    className: "w-full text-gray-100 table-fixed",
-                                    children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("thead", {
-                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("tr", {
-                                                className: "h-20",
-                                                children: [
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
-                                                        className: "bg-gradient-to-r from-purple-600 to-indigo-600 text-white text-lg font-bold py-4 px-2 sticky left-0 z-20 border-r-4 border-purple-400 shadow-lg w-1/5",
-                                                        children: [
-                                                            " ",
-                                                            "Specification"
-                                                        ]
-                                                    }, void 0, true, {
-                                                        fileName: "[project]/app/components/compareTable.tsx",
-                                                        lineNumber: 69,
-                                                        columnNumber: 19
-                                                    }, this),
-                                                    Array.from({
-                                                        length: dropdownCount
-                                                    }).map((_, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
-                                                            className: `py-4 px-1 ${dropdownCount === 2 ? 'w-2/5' : dropdownCount === 3 ? 'w-1/3' : 'w-1/4'}`,
-                                                            children: [
-                                                                " ",
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                    className: "flex items-center justify-center gap-4",
-                                                                    children: [
-                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$select$2f$dist$2f$react$2d$select$2e$esm$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$locals$3e$__["default"], {
-                                                                            options: availableOptions,
-                                                                            value: selected[i] || null,
-                                                                            onChange: (opt)=>handleChange(opt, i),
-                                                                            classNamePrefix: "compare-select",
-                                                                            placeholder: `Phone ${i + 1}`,
-                                                                            isClearable: true,
-                                                                            styles: {
-                                                                                control: (base)=>({
-                                                                                        ...base,
-                                                                                        backgroundColor: '#374151',
-                                                                                        borderColor: '#6b7280',
-                                                                                        color: 'white',
-                                                                                        width: dropdownCount === 2 ? '380px' : dropdownCount === 3 ? '280px' : '220px',
-                                                                                        minHeight: '44px',
-                                                                                        textAlign: 'center'
-                                                                                    }),
-                                                                                menu: (base)=>({
-                                                                                        ...base,
-                                                                                        backgroundColor: '#1f2937',
-                                                                                        color: 'white',
-                                                                                        width: dropdownCount === 2 ? '380px' : dropdownCount === 3 ? '280px' : '220px'
-                                                                                    }),
-                                                                                singleValue: (base)=>({
-                                                                                        ...base,
-                                                                                        color: 'white',
-                                                                                        fontWeight: '600',
-                                                                                        textAlign: 'center'
-                                                                                    }),
-                                                                                valueContainer: (base)=>({
-                                                                                        ...base,
-                                                                                        padding: '2px 6px',
-                                                                                        textAlign: 'center'
-                                                                                    }),
-                                                                                option: (base, state)=>({
-                                                                                        ...base,
-                                                                                        backgroundColor: state.isSelected ? '#6366f1' : state.isFocused ? '#374151' : 'transparent',
-                                                                                        color: 'white'
-                                                                                    })
-                                                                            }
-                                                                        }, void 0, false, {
-                                                                            fileName: "[project]/app/components/compareTable.tsx",
-                                                                            lineNumber: 75,
-                                                                            columnNumber: 25
-                                                                        }, this),
-                                                                        dropdownCount < 4 && i === dropdownCount - 1 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                                                            onClick: addDropdown,
-                                                                            className: "bg-purple-600 hover:bg-purple-700 text-white px-2 py-2 rounded-lg text-sm font-medium transition-all duration-200 flex-shrink-0",
-                                                                            title: "Add another phone",
-                                                                            children: "+"
-                                                                        }, void 0, false, {
-                                                                            fileName: "[project]/app/components/compareTable.tsx",
-                                                                            lineNumber: 121,
-                                                                            columnNumber: 27
-                                                                        }, this)
-                                                                    ]
-                                                                }, void 0, true, {
-                                                                    fileName: "[project]/app/components/compareTable.tsx",
-                                                                    lineNumber: 74,
-                                                                    columnNumber: 23
-                                                                }, this)
-                                                            ]
-                                                        }, i, true, {
-                                                            fileName: "[project]/app/components/compareTable.tsx",
-                                                            lineNumber: 73,
-                                                            columnNumber: 21
-                                                        }, this))
-                                                ]
-                                            }, void 0, true, {
-                                                fileName: "[project]/app/components/compareTable.tsx",
-                                                lineNumber: 68,
-                                                columnNumber: 17
-                                            }, this)
-                                        }, void 0, false, {
-                                            fileName: "[project]/app/components/compareTable.tsx",
-                                            lineNumber: 67,
-                                            columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("tbody", {
-                                            children: selected.filter((s)=>s !== null).length === 0 ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("tr", {
-                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
-                                                    colSpan: dropdownCount + 1,
-                                                    className: "text-center py-16 text-2xl text-gray-400 font-medium",
-                                                    children: [
-                                                        " ",
-                                                        "Select phones from dropdowns above to compare specs"
-                                                    ]
-                                                }, void 0, true, {
-                                                    fileName: "[project]/app/components/compareTable.tsx",
-                                                    lineNumber: 138,
-                                                    columnNumber: 21
-                                                }, this)
-                                            }, void 0, false, {
-                                                fileName: "[project]/app/components/compareTable.tsx",
-                                                lineNumber: 137,
-                                                columnNumber: 19
-                                            }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Fragment"], {
-                                                children: Object.entries(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$constants$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["attributeNames"]).map(([key, label], index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("tr", {
-                                                        className: `${index % 2 === 0 ? 'bg-gradient-to-r from-gray-700/50 to-gray-800/70' : 'bg-gradient-to-r from-gray-750/60 to-gray-850/80'} border-b-2 border-purple-500/30 hover:bg-purple-500/20 transition-all duration-200`,
-                                                        children: [
-                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
-                                                                className: "px-2 py-2 font-medium text-gray-200 sticky left-0 z-10 bg-inherit border-r-2 border-purple-400/50",
-                                                                children: [
-                                                                    " ",
-                                                                    label
-                                                                ]
-                                                            }, void 0, true, {
-                                                                fileName: "[project]/app/components/compareTable.tsx",
-                                                                lineNumber: 153,
-                                                                columnNumber: 25
-                                                            }, this),
-                                                            Array.from({
-                                                                length: dropdownCount
-                                                            }).map((_, phoneIndex)=>{
-                                                                const phoneModel = selected[phoneIndex]?.value;
-                                                                return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
-                                                                    className: "px-2 py-2 text-center text-gray-100",
-                                                                    children: [
-                                                                        " ",
-                                                                        phoneModel ? items.find((item)=>item.model === phoneModel)?.[key] || 'N/A' : ''
-                                                                    ]
-                                                                }, `${key}-${phoneIndex}`, true, {
-                                                                    fileName: "[project]/app/components/compareTable.tsx",
-                                                                    lineNumber: 159,
-                                                                    columnNumber: 29
-                                                                }, this);
-                                                            })
-                                                        ]
-                                                    }, key, true, {
-                                                        fileName: "[project]/app/components/compareTable.tsx",
-                                                        lineNumber: 145,
-                                                        columnNumber: 23
-                                                    }, this))
-                                            }, void 0, false)
-                                        }, void 0, false, {
-                                            fileName: "[project]/app/components/compareTable.tsx",
-                                            lineNumber: 135,
-                                            columnNumber: 15
-                                        }, this)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "[project]/app/components/compareTable.tsx",
-                                    lineNumber: 66,
-                                    columnNumber: 13
-                                }, this)
-                            }, void 0, false, {
-                                fileName: "[project]/app/components/compareTable.tsx",
-                                lineNumber: 65,
-                                columnNumber: 11
-                            }, this)
+                            "Full specifications for ",
+                            items.length,
+                            " smartphones — pick up to 4 devices."
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/components/compareTable.tsx",
-                        lineNumber: 64,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "w-full h-48 lg:h-64 bg-gradient-to-r from-emerald-800 to-green-800 rounded-2xl mt-8 flex items-center justify-center text-emerald-200 text-xl font-bold shadow-2xl border border-emerald-600",
-                        children: [
-                            " ",
-                            "Advertisement (728x90)"
-                        ]
-                    }, void 0, true, {
-                        fileName: "[project]/app/components/compareTable.tsx",
-                        lineNumber: 177,
+                        lineNumber: 274,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/components/compareTable.tsx",
-                lineNumber: 57,
+                lineNumber: 267,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
+                className: "max-w-7xl mx-auto px-4 pb-10 flex flex-col gap-5",
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "bg-gray-900 rounded-2xl border border-gray-800 overflow-hidden",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "flex flex-wrap items-end gap-4 px-5 py-5 border-b border-gray-800",
+                                children: [
+                                    Array.from({
+                                        length: dropdownCount
+                                    }).map((_, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "flex flex-col gap-1.5",
+                                            style: {
+                                                flex: "1 1 180px",
+                                                maxWidth: 300
+                                            },
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                    className: "flex items-center justify-between",
+                                                    children: [
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                            className: "text-[10px] font-bold uppercase tracking-widest text-gray-500",
+                                                            children: [
+                                                                "Phone ",
+                                                                i + 1
+                                                            ]
+                                                        }, void 0, true, {
+                                                            fileName: "[project]/app/components/compareTable.tsx",
+                                                            lineNumber: 290,
+                                                            columnNumber: 19
+                                                        }, this),
+                                                        i >= 2 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                                            onClick: ()=>{
+                                                                const copy = [
+                                                                    ...selected
+                                                                ];
+                                                                copy.splice(i, 1);
+                                                                copy.push(null);
+                                                                setSelected(copy);
+                                                                setDropdownCount(dropdownCount - 1);
+                                                            },
+                                                            className: "text-gray-600 hover:text-red-400 text-xs transition-colors",
+                                                            title: "Remove slot",
+                                                            children: "✕ Remove"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/app/components/compareTable.tsx",
+                                                            lineNumber: 295,
+                                                            columnNumber: 21
+                                                        }, this)
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "[project]/app/components/compareTable.tsx",
+                                                    lineNumber: 289,
+                                                    columnNumber: 17
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$select$2f$dist$2f$react$2d$select$2e$esm$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$locals$3e$__["default"], {
+                                                    options: availableOptions,
+                                                    value: selected[i] || null,
+                                                    onChange: (opt)=>handleChange(opt, i),
+                                                    classNamePrefix: "compare-select",
+                                                    placeholder: `Select phone ${i + 1}…`,
+                                                    isClearable: true,
+                                                    styles: rsStyles
+                                                }, void 0, false, {
+                                                    fileName: "[project]/app/components/compareTable.tsx",
+                                                    lineNumber: 310,
+                                                    columnNumber: 17
+                                                }, this)
+                                            ]
+                                        }, i, true, {
+                                            fileName: "[project]/app/components/compareTable.tsx",
+                                            lineNumber: 288,
+                                            columnNumber: 15
+                                        }, this)),
+                                    dropdownCount < 4 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                        onClick: addDropdown,
+                                        className: "flex flex-col items-center justify-center gap-1 px-5 py-3 rounded-xl border border-dashed border-gray-700 text-gray-500 hover:border-blue-500 hover:text-blue-400 transition-colors text-xs font-medium self-stretch min-w-[90px]",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                className: "text-lg leading-none",
+                                                children: "＋"
+                                            }, void 0, false, {
+                                                fileName: "[project]/app/components/compareTable.tsx",
+                                                lineNumber: 328,
+                                                columnNumber: 17
+                                            }, this),
+                                            "Add Phone"
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/app/components/compareTable.tsx",
+                                        lineNumber: 324,
+                                        columnNumber: 15
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/app/components/compareTable.tsx",
+                                lineNumber: 286,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "flex items-center justify-between flex-wrap gap-3 px-5 py-3 border-b border-gray-800 bg-gray-950/50",
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                        className: "text-xs text-gray-500",
+                                        children: hasSelection ? `Comparing ${selected.filter(Boolean).length} phone${selected.filter(Boolean).length > 1 ? "s" : ""} · ${Object.keys(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$constants$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["attributeNames"]).length} specs` : "Select phones above to compare specs"
+                                    }, void 0, false, {
+                                        fileName: "[project]/app/components/compareTable.tsx",
+                                        lineNumber: 336,
+                                        columnNumber: 13
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
+                                        className: "flex items-center gap-2 cursor-pointer select-none group",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                className: "text-xs font-medium text-gray-400 group-hover:text-gray-200 transition-colors",
+                                                children: "Highlight Differences"
+                                            }, void 0, false, {
+                                                fileName: "[project]/app/components/compareTable.tsx",
+                                                lineNumber: 342,
+                                                columnNumber: 15
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                                role: "switch",
+                                                "aria-checked": highlightDiff,
+                                                onClick: ()=>setHighlightDiff(!highlightDiff),
+                                                className: `relative w-9 h-5 rounded-full transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 focus:ring-offset-gray-900 ${highlightDiff ? "bg-blue-500" : "bg-gray-700"}`,
+                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                    className: `absolute top-0.5 w-4 h-4 rounded-full bg-white shadow transition-transform duration-200 ${highlightDiff ? "translate-x-[18px]" : "translate-x-0.5"}`
+                                                }, void 0, false, {
+                                                    fileName: "[project]/app/components/compareTable.tsx",
+                                                    lineNumber: 353,
+                                                    columnNumber: 17
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "[project]/app/components/compareTable.tsx",
+                                                lineNumber: 345,
+                                                columnNumber: 15
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/app/components/compareTable.tsx",
+                                        lineNumber: 341,
+                                        columnNumber: 13
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/app/components/compareTable.tsx",
+                                lineNumber: 335,
+                                columnNumber: 11
+                            }, this),
+                            !hasSelection ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "flex flex-col items-center justify-center gap-3 py-16 text-center",
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                        className: "text-5xl",
+                                        children: "📊"
+                                    }, void 0, false, {
+                                        fileName: "[project]/app/components/compareTable.tsx",
+                                        lineNumber: 365,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                        className: "text-base font-semibold text-gray-300",
+                                        children: "Select phones to start comparing"
+                                    }, void 0, false, {
+                                        fileName: "[project]/app/components/compareTable.tsx",
+                                        lineNumber: 366,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                        className: "text-sm text-gray-600",
+                                        children: "Choose up to 4 devices using the dropdowns above"
+                                    }, void 0, false, {
+                                        fileName: "[project]/app/components/compareTable.tsx",
+                                        lineNumber: 367,
+                                        columnNumber: 15
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/app/components/compareTable.tsx",
+                                lineNumber: 364,
+                                columnNumber: 13
+                            }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "overflow-x-auto",
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("table", {
+                                    className: "w-full text-sm table-fixed",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("thead", {
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("tr", {
+                                                className: "border-b border-gray-800",
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
+                                                        className: "sticky left-0 z-20 bg-gray-900 w-[22%] px-5 py-3 text-left text-[10px] font-bold uppercase tracking-widest text-gray-500 border-r border-gray-800",
+                                                        children: "Specification"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/app/components/compareTable.tsx",
+                                                        lineNumber: 374,
+                                                        columnNumber: 21
+                                                    }, this),
+                                                    Array.from({
+                                                        length: dropdownCount
+                                                    }).map((_, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
+                                                            className: "px-4 py-3 text-center bg-gray-900 border-l border-gray-800",
+                                                            children: selected[i] ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                                className: "text-sm font-bold text-white leading-tight block",
+                                                                children: selected[i].label
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/app/components/compareTable.tsx",
+                                                                lineNumber: 383,
+                                                                columnNumber: 27
+                                                            }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                                className: "text-xs text-gray-600 italic",
+                                                                children: "Not selected"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/app/components/compareTable.tsx",
+                                                                lineNumber: 387,
+                                                                columnNumber: 27
+                                                            }, this)
+                                                        }, i, false, {
+                                                            fileName: "[project]/app/components/compareTable.tsx",
+                                                            lineNumber: 378,
+                                                            columnNumber: 23
+                                                        }, this))
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/app/components/compareTable.tsx",
+                                                lineNumber: 373,
+                                                columnNumber: 19
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "[project]/app/components/compareTable.tsx",
+                                            lineNumber: 372,
+                                            columnNumber: 17
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("tbody", {
+                                            children: Object.entries(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$constants$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["attributeNames"]).map(([key, label], index)=>{
+                                                const isDiff = diffKeys.has(key);
+                                                return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("tr", {
+                                                    className: `border-b border-gray-800/60 transition-colors group ${isDiff ? "bg-blue-950/30 hover:bg-blue-950/50" : index % 2 === 0 ? "bg-gray-900 hover:bg-gray-800/70" : "bg-gray-950 hover:bg-gray-800/70"}`,
+                                                    children: [
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
+                                                            className: "sticky left-0 z-10 bg-inherit px-5 py-2.5 font-medium text-gray-300 border-r border-gray-800 whitespace-nowrap",
+                                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                                className: "flex items-center gap-2",
+                                                                children: [
+                                                                    String(label),
+                                                                    isDiff && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                                        className: "text-[9px] font-bold uppercase tracking-wider text-blue-400 bg-blue-900/50 px-1.5 py-0.5 rounded",
+                                                                        children: "differs"
+                                                                    }, void 0, false, {
+                                                                        fileName: "[project]/app/components/compareTable.tsx",
+                                                                        lineNumber: 413,
+                                                                        columnNumber: 31
+                                                                    }, this)
+                                                                ]
+                                                            }, void 0, true, {
+                                                                fileName: "[project]/app/components/compareTable.tsx",
+                                                                lineNumber: 410,
+                                                                columnNumber: 27
+                                                            }, this)
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/app/components/compareTable.tsx",
+                                                            lineNumber: 409,
+                                                            columnNumber: 25
+                                                        }, this),
+                                                        Array.from({
+                                                            length: dropdownCount
+                                                        }).map((_, phoneIndex)=>{
+                                                            const phoneModel = selected[phoneIndex]?.value;
+                                                            const val = phoneModel ? items.find((item)=>item.model === phoneModel)?.[key] ?? "N/A" : "";
+                                                            return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
+                                                                className: "px-4 py-2.5 text-center text-gray-200 border-l border-gray-800 font-mono text-xs leading-relaxed",
+                                                                children: String(val)
+                                                            }, `${key}-${phoneIndex}`, false, {
+                                                                fileName: "[project]/app/components/compareTable.tsx",
+                                                                lineNumber: 427,
+                                                                columnNumber: 29
+                                                            }, this);
+                                                        })
+                                                    ]
+                                                }, key, true, {
+                                                    fileName: "[project]/app/components/compareTable.tsx",
+                                                    lineNumber: 398,
+                                                    columnNumber: 23
+                                                }, this);
+                                            })
+                                        }, void 0, false, {
+                                            fileName: "[project]/app/components/compareTable.tsx",
+                                            lineNumber: 394,
+                                            columnNumber: 17
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/app/components/compareTable.tsx",
+                                    lineNumber: 371,
+                                    columnNumber: 15
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "[project]/app/components/compareTable.tsx",
+                                lineNumber: 370,
+                                columnNumber: 13
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/app/components/compareTable.tsx",
+                        lineNumber: 283,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "flex justify-center",
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "w-[300px]",
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(AdSlot, {
+                                label: "Rectangle · 300×250",
+                                minHeight: 250,
+                                accent: "green"
+                            }, void 0, false, {
+                                fileName: "[project]/app/components/compareTable.tsx",
+                                lineNumber: 447,
+                                columnNumber: 13
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "[project]/app/components/compareTable.tsx",
+                            lineNumber: 446,
+                            columnNumber: 11
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "[project]/app/components/compareTable.tsx",
+                        lineNumber: 445,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(AdSlot, {
+                        label: "Leaderboard · 728×90",
+                        minHeight: 90,
+                        accent: "amber"
+                    }, void 0, false, {
+                        fileName: "[project]/app/components/compareTable.tsx",
+                        lineNumber: 452,
+                        columnNumber: 9
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "[project]/app/components/compareTable.tsx",
+                lineNumber: 280,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(SiteFooter, {}, void 0, false, {
+                fileName: "[project]/app/components/compareTable.tsx",
+                lineNumber: 456,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/app/components/compareTable.tsx",
-        lineNumber: 56,
+        lineNumber: 257,
         columnNumber: 5
     }, this);
 }
